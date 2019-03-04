@@ -26,8 +26,8 @@ count = Math.sqrt(count);
 
 
 
-let arg = prompt("Какой-то текст");
-function lorem() {
+let q = prompt("Какой-то текст");
+function lorem(arg) {
     if (typeof arg === "string") {
         arg.trim();
         if (arg.length > 50) {
@@ -41,4 +41,4 @@ function lorem() {
     
     
 }
-lorem();
+lorem(q);
